@@ -1,0 +1,32 @@
+
+body {
+    background-color: black;
+}
+
+.centerDiv {
+    display: block;
+    background-color: rgb(17, 53, 120);
+    padding: 40px;
+    text-align: center;
+    color: burlywood;
+    margin-top: 200px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#check-btn {
+    display: inline-block;
+    text-align: center;
+}
+
+.resultDiv {
+    color: white;
+    background-color: rgb(3, 96, 79);
+    text-align: center;
+    margin: 100px;
+    padding: 35px;
+}
+
+p {
+    font-size: x-large;
+}
