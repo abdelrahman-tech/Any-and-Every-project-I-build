@@ -1,0 +1,13 @@
+body {
+    background-color: burlywood;
+    
+}
+
+div {
+    display: block;
+    position: relative;
+    text-align: center;
+    border-color: black;
+    border-width: 5px;
+    margin: 20px;
+}
