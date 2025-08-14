@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+}
+
+#main-frame {
+    background-color: rgb(0, 0, 121);
+    display: block;
+    color: blanchedalmond;
+    text-align: center;
+    max-width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    max-height: 75%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#change-due {
+    background-color: burlywood;
+    display: none;
+    color: black;
+    text-align: center;
+    max-width: 50%;
+    margin-right: 10%;
+    margin-left: 25%;
+    max-height: 75%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: x-large;
+    word-wrap: break-word;
+}
