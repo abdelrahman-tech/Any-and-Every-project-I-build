@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+}
+
+#search-container {
+    background-color: rgb(68, 2, 129);
+    color: whitesmoke;
+    display: block;
+    border: 6px solid;
+    border-color: rgb(69, 0, 90);
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+    height: 80%;
+}
+
+#search-button {
+    color: aqua;
+    background-color: black;
+}
+
+#search-input {
+    background-color: rgb(44, 41, 41);
+    color: beige;
+}
+
+#result, #info {
+    display: block;
+}
+
+#perks, #perks {
+    display: grid;
+    text-align: center;
+}
+
+#table {
+    display: none;
+    background-color: darkmagenta;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+tr, td {
+    border-bottom: 3px solid rgb(238, 231, 231);
+    border-top: 3px solid rgb(238, 231, 231);
+    width: 100%;
+}
+
+td {
+    border-left: 3px solid rgb(238, 231, 231);
+    border-right: 3px solid rgb(238, 231, 231);;
+    text-align: center;
+}
+
+
+
+#name-and-id , #types{
+    text-align: center;
+    display: block;
+    padding-top: 5%;
+}
+
+#creature-name, #creature-id {
+    display: inline;
+    margin: 10%;
+}

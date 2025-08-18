@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG Creature Search App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="search-container">
+            <h2>Search for an RPG Creature (name or ID)</h2>
+            <input type="text" id="search-input" required>
+            <button id="search-button">Search</button> 
+            <div id="result">
+                <div id="info">
+                    <div id="name-and-id">
+                        <h3 id="creature-name"></h3>
+                        <h4 id="creature-id"></h4>
+                    </div>
+                    <h4 id="weight"></h4>
+                    <h4 id="height"></h4>
+                    <div id="types"></div>
+                </div>
+                <div id="perks">
+                    <table id="table">
+                    <tr id="perk">
+                        <td id=>Perk</td>
+                        <td>Stats</td>
+                    </tr>
+                    <tr>
+                        <td>HP:</td>
+                        <td id="hp"></td>
+                    </tr>
+                    <tr>
+                        <td>Attack:</td>
+                        <td id="attack"></td>
+                    </tr>
+                    <tr>
+                        <td>Defense:</td>
+                        <td id="defense"></td>
+                    </tr>
+                    <tr>
+                        <td>Sp. Attack:</td>
+                        <td id="special-attack"></td>
+                    </tr>
+                    <tr>
+                        <td>Sp. Defense:</td>
+                        <td id="special-defense"></td>
+                    </tr>
+                    <tr>
+                        <td>Speed:</td>
+                        <td id="speed"></td>
+                    </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </main>
+</body>
+</html>
